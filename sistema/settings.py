@@ -24,7 +24,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # SECURITY WARNING: keep the secret key used in production secret!SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 SECRET_KEY = os.environ.get('SECRET_KEY', default="utWmLh-QbpIzSfAtwR9_fsKJBZ9SA8eug2HQGj4LFtWveILtaptHJPhCmY8gQcgNjSs")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
