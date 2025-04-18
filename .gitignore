@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+*.db
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Environments
+.env
+venv/
+env/
+ENV/
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Git
+*.orig
+
+# Compiled
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Node (si usas front-end integrado)
+node_modules/
+
+# Railway local metadata
+.railway/
